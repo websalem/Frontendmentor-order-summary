@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  font-size: 16px;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  align-content: center;
+  color: hsl(223deg, 47%, 23%);
+}
+
+@font-face {
+  font-family: "red-hat";
+  src: url("../fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+main {
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-family: "red-hat";
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.25rem;
+}
+
+.order-img img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.order-details {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.order-details h1 {
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 1.25rem;
+}
+
+.order-details p {
+  line-height: 1.75;
+  font-weight: 600;
+  color: hsl(224deg, 23%, 55%);
+  margin-bottom: 1.25rem;
+}
+
+.order-price {
+  display: flex;
+  background-color: hsl(225deg, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-price-plan {
+  flex: 1;
+  margin-right: 1.25rem;
+}
+
+.order-price-plan img {
+  float: left;
+}
+
+.order-price-plan h2 {
+  font-size: 0.95rem;
+}
+
+.order-price-plan p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.order-price-edit a {
+  color: hsl(245deg, 75%, 52%);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.order-price-edit a:hover {
+  text-decoration: none;
+  color: hsla(245deg, 75%, 52%, 0.5);
+}
+
+.btn-blue {
+  background-color: hsl(245deg, 75%, 52%);
+  color: #fff;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.btn-blue:hover {
+  background-color: hsla(245deg, 75%, 52%, 0.5);
+}
+
+.cancel {
+  text-decoration: none;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 700;
+}
+
+.cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+}

@@ -1,0 +1,95 @@
+main {
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: $font-family;
+    box-shadow: $box-shadow;
+    margin-bottom: $margin;
+}
+
+.order-img img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.order-details {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.order-details h1 {
+    font-size: 1.35rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: $margin;
+}
+
+.order-details p {
+    line-height: 1.75;
+    font-weight: 600;
+    color: $desaturated-blue;
+    margin-bottom: $margin;
+}
+
+.order-price {
+    display: flex;
+    background-color: $very-pale-blue;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-price-plan {
+    flex: 1;
+    margin-right: $margin;
+}
+
+.order-price-plan img {
+    float: left;
+}
+
+.order-price-plan h2 {
+    font-size: .95rem;
+}
+
+.order-price-plan p {
+    margin-bottom: 0;
+    font-size: .85rem;
+    letter-spacing: 1px;
+}
+
+.order-price-edit a {
+    color: $bright-blue;
+    font-size: .85rem;
+    font-weight: 700;
+
+}
+
+.order-price-edit a:hover {
+    text-decoration: none;
+    color: $bright-blue-half;
+}
+
+.btn-blue {
+    background-color: $bright-blue;
+    color: #fff;
+    margin-top: $margin;
+    margin-bottom: $margin;
+}
+
+.btn-blue:hover {
+    background-color: $bright-blue-half;
+}
+
+.cancel {
+    text-decoration: none;
+    color: $desaturated-blue;
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: $dark-blue;
+}
